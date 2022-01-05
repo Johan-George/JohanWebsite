@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@700&display=swap');
+
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+// colours
+$nav-colour: #264269;
+$nav-colour2: #365E96;
+$bg-color: #EDF2F8;
+$button-colour: #CBE4EF;
+$contact-colour: #6F7E85;
+$card-colour: #EFF4FB;
+
+// font 
+$text: 'Open Sans', sans-serif;
+$titles: 'Ubuntu', sans-serif;
+
+// uncomment this if ur trying to figure
+// out overflow issues T^T
+
+// * {
+//     outline: 1px solid #f00 !important;
+//   }
+
+// general stuff
+
+body {
+    background-color: $bg-color;
+    font-family: $text;
+}
+
+main {
+    padding: 1em 2em;
+}
+
+
+// nav
+
+nav {
+    background-color: $nav-colour;
+}
+
+.nav-option {
+    display: block;
+    padding: 0.5em 0.75em;
+    text-decoration: none;
+    color: white;
+    
+    &:hover {
+        background-color: $nav-colour2;
+    }
+}
+
+.nav-menu-mobile {
+    padding: 0 0 0.75em 0;
+}

@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@700&display=swap");
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+body {
+  background-color: #EDF2F8;
+  font-family: "Open Sans", sans-serif;
+}
+
+main {
+  padding: 1em 2em;
+}
+
+nav {
+  background-color: #264269;
+}
+
+.nav-option {
+  display: block;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-option:hover {
+  background-color: #365E96;
+}
+
+.nav-menu-mobile {
+  padding: 0 0 0.75em 0;
+}
+/*# sourceMappingURL=style.css.map */
