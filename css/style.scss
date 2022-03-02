@@ -26,7 +26,7 @@ $titles: 'Ubuntu', sans-serif;
 
 // formats
 
-// card format
+// button format
 @mixin btn($colour: $button-colour) {
     display: block;
     border-radius: 1.5em;
@@ -44,6 +44,14 @@ $titles: 'Ubuntu', sans-serif;
         color: white;
         cursor: pointer;
     }
+}
+
+// card format
+@mixin card($colour: $card-colour) {
+    display: block;
+    background-color: $colour;
+    padding: 1em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 // general stuff
@@ -81,4 +89,8 @@ nav {
 
 div.btn {
     @include btn();
+}
+
+div.card {
+    @include card();
 }
