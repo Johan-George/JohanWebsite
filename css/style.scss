@@ -8,7 +8,7 @@ font-family: 'Ubuntu', sans-serif;
 // colours
 $nav-colour: #264269;
 $nav-colour2: #365E96;
-$bg-colour: #EDF2F8;
+$bg-color: #EDF2F8;
 $button-colour: #CBE4EF;
 $contact-colour: #6F7E85;
 $card-colour: #EFF4FB;
@@ -24,40 +24,10 @@ $titles: 'Ubuntu', sans-serif;
 //     outline: 1px solid #f00 !important;
 //   }
 
-// formats
-
-// button format
-@mixin btn($colour: $button-colour) {
-    display: block;
-    border-radius: 1.5em;
-    padding: 0.75em 1.75em;
-    margin: 0.5em;
-    text-align: center;
-    width: fit-content;
-
-    background-color: $colour;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-    &:hover {
-        background-color: $contact-colour;
-        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-        color: white;
-        cursor: pointer;
-    }
-}
-
-// card format
-@mixin card($colour: $card-colour) {
-    display: block;
-    background-color: $colour;
-    padding: 1em;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 // general stuff
 
 body {
-    background-color: $bg-colour;
+    background-color: $bg-color;
     font-family: $text;
 }
 
@@ -85,12 +55,4 @@ nav {
 
 .nav-menu-mobile {
     padding: 0 0 0.75em 0;
-}
-
-div.btn {
-    @include btn();
-}
-
-div.card {
-    @include card();
 }
