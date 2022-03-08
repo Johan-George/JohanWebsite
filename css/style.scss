@@ -72,15 +72,11 @@ h1 {
     text-align: center;
 }
 
-
-
 // nav
 
 nav {
     background-color: $nav-colour;
 }
-
-// nav
 
 .nav-option {
     display: block;
@@ -116,5 +112,10 @@ nav {
 
     .intro-desktop {
         display: none;
+    }
+
+    .contact-button {
+        @include btn();
+        margin: 1.5em auto;
     }
 }
