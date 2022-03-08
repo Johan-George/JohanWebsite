@@ -128,11 +128,15 @@ nav {
 }
 
 .contact-btn:hover {
-  background-color: #6F7E85;
+  background-color: #BBCDD6;
   -webkit-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: white;
   cursor: pointer;
+}
+
+.contact-btn:hover {
+  color: black;
 }
 
 footer {
