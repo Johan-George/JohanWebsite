@@ -53,6 +53,7 @@ nav {
 
 .nav-menu-mobile {
   padding: 0 0 0.75em 0;
+  display: none;
 }
 
 #intro p {
