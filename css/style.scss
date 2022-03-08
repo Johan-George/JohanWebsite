@@ -71,6 +71,21 @@ h1 {
     font-family: $titles;
     font-size: 2em;
     text-align: center;
+    padding: 0.25em 0;
+}
+
+h2 {
+    font-family: $titles;
+    font-size: 1.75em;
+    text-align: center;
+    padding: 0.25em 0;
+}
+
+h3 {
+    font-family: $titles;
+    font-size: 1.25em;
+    text-align: center;
+    padding: 0.25em 0;
 }
 
 // nav
@@ -131,4 +146,19 @@ footer {
     border-top: 1px solid #6F7E85; 
     margin: auto 2em;
     padding: 1em;
+}
+
+// portfolio page
+
+.portfolio-intro {
+    padding: 1em;
+
+    h1 {
+        text-align: left;
+    }
+
+    p {
+        padding: 0.5em 0;
+    }
+
 }
