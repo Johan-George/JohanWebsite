@@ -81,6 +81,7 @@ h2 {
     font-size: 1.75em;
     text-align: center;
     padding: 0.25em 0;
+    margin: 0.25em auto;
 }
 
 h3 {
@@ -88,6 +89,7 @@ h3 {
     font-size: 1.25em;
     text-align: center;
     padding: 0.25em 0;
+    margin: 0.25em auto;
 }
 
 // nav
@@ -213,6 +215,33 @@ footer {
 
 // contact
 
-.google-form {
-    width: 80vw;
+.contact {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5em;
+
+    .google-form {
+        width: 80vw;
+    }
+
+    .icons {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        justify-content: center;
+
+        img {
+            width: 50px;
+            height: auto;
+
+            // &:hover {
+            //     width: 53px;
+            // }
+        }
+    }
+
 }
