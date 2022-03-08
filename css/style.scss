@@ -136,6 +136,18 @@ nav {
     }
 }
 
+.instruments-desktop, .software-desktop {
+    display: none;
+}
+
+// contact buttons
+
+.contact-btn {
+    @include btn($contact-colour);
+
+    color: white;
+    text-decoration: none;
+}
 
 // footer
 footer {

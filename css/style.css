@@ -93,6 +93,34 @@ nav {
   cursor: pointer;
 }
 
+.instruments-desktop, .software-desktop {
+  display: none;
+}
+
+.contact-btn {
+  display: block;
+  border-radius: 1.5em;
+  padding: 0.75em 1.75em;
+  margin: 0.5em;
+  text-align: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #6F7E85;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  text-decoration: none;
+}
+
+.contact-btn:hover {
+  background-color: #6F7E85;
+  -webkit-box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: white;
+  cursor: pointer;
+}
+
 footer {
   text-align: center;
   font-size: 0.75em;
