@@ -151,6 +151,10 @@ footer {
   padding: 0.5em 0;
 }
 
+.portfolio-works .work-card.card-desktop {
+  display: none;
+}
+
 .portfolio-works .work-card {
   display: block;
   background-color: #EFF4FB;

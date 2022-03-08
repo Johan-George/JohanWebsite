@@ -136,7 +136,7 @@ nav {
     }
 }
 
-.instruments-desktop, .software-desktop {
+.instruments-desktop, .software-desktop{
     display: none;
 }
 
@@ -184,9 +184,19 @@ footer {
 
 .portfolio-works {
 
+    
+    .work-card.card-desktop {
+        display: none;
+    }
+
     .work-card {
         @include card();
         margin: 2em auto;
         max-width: 270px;
+
+        
     }
+
+
+    
 }
