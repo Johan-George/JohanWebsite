@@ -279,6 +279,9 @@ footer {
     margin: 0 2em;
     padding: 2em 4em;
   }
+  #intro .intro-top-desktop .desc-desktop h1 {
+    margin-right: 3em;
+  }
   #intro .intro-top-desktop .desc-desktop p {
     text-align: left;
   }
@@ -364,7 +367,7 @@ footer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .portfolio-page .portfolio-works .work-card {
+  .portfolio-page .portfolio-works .work-card.card-desktop {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -373,7 +376,7 @@ footer {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .portfolio-page .portfolio-works .work-card .work-btn {
+  .portfolio-page .portfolio-works .work-card.card-desktop .work-btn {
     -ms-flex-item-align: end;
         align-self: flex-end;
   }

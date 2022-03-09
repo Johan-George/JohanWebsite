@@ -260,7 +260,7 @@ footer {
     }
 
     // hidden elements in mobile
-    .intro-mobile, .contact-group-mobile {
+    .intro-mobile, .contact-group-mobile, .work-card.card-mobile {
         display: none;
     }
     
@@ -281,6 +281,10 @@ footer {
                 background-color: $bg-colour;
                 margin: 0 2em;
                 padding: 2em 4em;
+
+                h1 {
+                    margin-right: 3em;
+                }
 
                 p {
                     text-align: left;
@@ -349,8 +353,6 @@ footer {
     
         .portfolio-works {
             
-            
-
             padding: 2em 3.5em;
             h2 {
                 text-align: left;
@@ -363,9 +365,6 @@ footer {
                     flex-direction: row;
                     flex-wrap: wrap;
 
-                    .work-card.card-mobile {
-                        display: none;
-                    }
                 }
                 
             }
