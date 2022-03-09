@@ -204,6 +204,10 @@ footer {
   cursor: pointer;
 }
 
+.portfolio-works .arr-btns .work-btn {
+  font-size: 0.8em;
+}
+
 .portfolio-works iframe {
   display: block;
   width: 200px;
