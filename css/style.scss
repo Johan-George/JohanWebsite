@@ -132,7 +132,7 @@ nav {
         border-radius: 50%;
     }
 
-    .intro-desktop {
+    .intro-top-desktop {
         display: none;
     }
 
@@ -142,7 +142,7 @@ nav {
     }
 }
 
-.instruments-desktop, .software-desktop{
+.intro-bot-desktop{
     display: none;
 }
 
@@ -254,3 +254,51 @@ footer {
     }
 
 }
+
+// ----- DESKTOP! -----
+
+@media screen and (min-width: 900px) {
+
+    main {
+        padding: 1em 0;
+    }
+
+    // hidden elements in mobile
+    .intro-mobile, .contact-group-mobile {
+        display: none;
+    }
+    
+    // intro
+
+    #intro {
+        background-color: $bg-colour2;
+        width: 100vw;
+
+        .intro-top-desktop {
+            display: flex;
+            flex-direction: row;
+            flex-flow: wrap;
+
+            .desc-desktop {
+                max-width: 500px;
+                background-color: $bg-colour;
+            }
+
+        }
+
+        
+    }
+    
+    .intro-bot-desktop {
+        display: block;
+        flex-direction: row;
+        flex-flow: wrap;
+
+        .software, .instruments {
+            max-width: 450px;
+            padding: 0.5em;
+            
+        }
+    }        
+}
+
