@@ -273,10 +273,35 @@ footer {
             flex-direction: row;
     -ms-flex-flow: wrap;
         flex-flow: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   #intro .intro-top-desktop .desc-desktop {
     max-width: 500px;
     background-color: #EDF2F8;
+    margin: 0 2em;
+    padding: 2em 4em;
+  }
+  #intro .intro-top-desktop .desc-desktop p {
+    text-align: left;
+  }
+  #intro .intro-top-desktop .intro-img-desktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #intro .intro-top-desktop .intro-img-desktop img {
+    border-radius: 0%;
   }
   .intro-bot-desktop {
     display: -webkit-box;

@@ -278,10 +278,28 @@ footer {
             display: flex;
             flex-direction: row;
             flex-flow: wrap;
+            justify-content: center;
 
             .desc-desktop {
                 max-width: 500px;
                 background-color: $bg-colour;
+                margin: 0 2em;
+                padding: 2em 4em;
+
+                p {
+                    text-align: left;
+                }
+            }
+
+            .intro-img-desktop {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+
+                img {
+                    border-radius: 0%;
+                }
             }
 
         }
