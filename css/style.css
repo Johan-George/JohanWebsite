@@ -332,5 +332,24 @@ footer {
     gap: 15px;
     padding-top: 1em;
   }
+  .portfolio-page {
+    padding: 0 2em;
+  }
+  .portfolio-page .portfolio-content {
+    background-color: #BBCDD6;
+    padding: 2em 0;
+  }
+  .portfolio-page .portfolio-intro {
+    margin-top: 2em;
+    background-color: #EDF2F8;
+  }
+  .portfolio-page .portfolio-intro h1, .portfolio-page .portfolio-intro p {
+    text-align: center;
+    max-width: 260px;
+    margin: auto;
+  }
+  .portfolio-page .portfolio-intro h1 {
+    margin-bottom: 1em;
+  }
 }
 /*# sourceMappingURL=style.css.map */
