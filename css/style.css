@@ -145,7 +145,7 @@ footer {
   font-size: 0.75em;
   color: #6F7E85;
   border-top: 1px solid #6F7E85;
-  margin: auto 2em;
+  margin: 2em;
   padding: 1em;
 }
 
@@ -256,7 +256,7 @@ footer {
   main {
     padding: 1em 0;
   }
-  .intro-mobile, .contact-group-mobile {
+  .intro-mobile, .contact-group-mobile, .work-card.card-mobile {
     display: none;
   }
   #intro {
@@ -350,6 +350,36 @@ footer {
   }
   .portfolio-page .portfolio-intro h1 {
     margin-bottom: 1em;
+  }
+  .portfolio-page .portfolio-works {
+    padding: 2em 3.5em;
+  }
+  .portfolio-page .portfolio-works h2 {
+    text-align: left;
+  }
+  .portfolio-page .portfolio-works .musescore-works .list-cards, .portfolio-page .portfolio-works .youtube-works .list-cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .portfolio-page .portfolio-works .work-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .portfolio-page .portfolio-works .work-card .work-btn {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
   }
 }
 /*# sourceMappingURL=style.css.map */

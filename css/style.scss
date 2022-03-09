@@ -171,7 +171,7 @@ footer {
     color: #6F7E85;
 
     border-top: 1px solid #6F7E85; 
-    margin: auto 2em;
+    margin: 2em;
     padding: 1em;
 }
 
@@ -264,7 +264,7 @@ footer {
     }
 
     // hidden elements in mobile
-    .intro-mobile, .contact-group-mobile {
+    .intro-mobile, .contact-group-mobile, .work-card.card-mobile {
         display: none;
     }
     
@@ -353,6 +353,31 @@ footer {
     
         .portfolio-works {
             
+            padding: 2em 3.5em;
+            h2 {
+                text-align: left;
+            }
+
+            .musescore-works, .youtube-works {
+                
+                .list-cards {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                }
+                
+            }
+
+            .work-card {
+                display: flex;
+                flex-direction: column;
+                
+                .work-btn {
+                    align-self: flex-end;
+                }
+                
+            }
+
         }
     }
 
