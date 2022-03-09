@@ -290,14 +290,22 @@ footer {
     }
     
     .intro-bot-desktop {
-        display: block;
+        display: flex;
         flex-direction: row;
         flex-flow: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 10px;
 
         .software, .instruments {
             max-width: 450px;
             padding: 0.5em;
             
+            .icons {
+                display: flex;
+                gap: 15px;
+                padding-top: 1em;
+            }
         }
     }        
 }

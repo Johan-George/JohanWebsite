@@ -279,17 +279,33 @@ footer {
     background-color: #EDF2F8;
   }
   .intro-bot-desktop {
-    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
     -ms-flex-flow: wrap;
         flex-flow: wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
   }
   .intro-bot-desktop .software, .intro-bot-desktop .instruments {
     max-width: 450px;
     padding: 0.5em;
+  }
+  .intro-bot-desktop .software .icons, .intro-bot-desktop .instruments .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 15px;
+    padding-top: 1em;
   }
 }
 /*# sourceMappingURL=style.css.map */
