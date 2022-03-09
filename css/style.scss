@@ -260,7 +260,7 @@ footer {
     }
 
     // hidden elements in mobile
-    .intro-mobile, .contact-group-mobile, .work-card.card-mobile {
+    .intro-mobile, .contact-group-mobile {
         display: none;
     }
     
@@ -349,6 +349,8 @@ footer {
     
         .portfolio-works {
             
+            
+
             padding: 2em 3.5em;
             h2 {
                 text-align: left;
@@ -360,11 +362,15 @@ footer {
                     display: flex;
                     flex-direction: row;
                     flex-wrap: wrap;
+
+                    .work-card.card-mobile {
+                        display: none;
+                    }
                 }
                 
             }
 
-            .work-card {
+            .work-card.card-desktop {
                 display: flex;
                 flex-direction: column;
                 
@@ -373,6 +379,8 @@ footer {
                 }
                 
             }
+
+            
 
         }
     }
