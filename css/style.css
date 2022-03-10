@@ -277,16 +277,18 @@ footer {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
-    max-width: 500px;
+    max-width: 423px;
     background-color: #EDF2F8;
-    margin: 0 2em;
-    padding: 2em 4em 2em 4em;
+    margin: 0 4em;
+    padding: 2em 4em;
   }
   #intro .intro-top-desktop .desc-desktop h1 {
-    padding-right: 2em;
+    padding-right: 3em;
   }
   #intro .intro-top-desktop .desc-desktop p {
     text-align: left;
+    max-width: 400px;
+    float: right;
   }
   #intro .intro-top-desktop .intro-img-desktop {
     -webkit-box-flex: 1;
