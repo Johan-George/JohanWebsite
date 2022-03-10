@@ -345,6 +345,8 @@ footer {
   .portfolio-page .portfolio-content {
     background-color: #BBCDD6;
     padding: 2em 0;
+    max-width: 850px;
+    margin: auto;
   }
   .portfolio-page .portfolio-intro {
     margin-top: 2em;
@@ -363,6 +365,7 @@ footer {
   }
   .portfolio-page .portfolio-works h2 {
     text-align: left;
+    margin-left: 1.2em;
   }
   .portfolio-page .portfolio-works .musescore-works .list-cards, .portfolio-page .portfolio-works .youtube-works .list-cards {
     display: -webkit-box;
@@ -374,6 +377,16 @@ footer {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .portfolio-page .portfolio-works .photography-works {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    margin: auto;
+  }
+  .portfolio-page .portfolio-works .photography-works h2 {
+    margin: auto;
+    text-align: left;
   }
   .portfolio-page .portfolio-works .work-card.card-desktop {
     display: -webkit-box;
