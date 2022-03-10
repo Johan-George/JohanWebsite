@@ -252,7 +252,7 @@ footer {
   main {
     padding: 2em 0;
   }
-  .intro-mobile, .contact-group-mobile, .work-card.card-mobile {
+  .intro-mobile, .contact-group-mobile, .work-card.card-mobile, .software-mobile, .instruments-mobile {
     display: none;
   }
   #intro {
